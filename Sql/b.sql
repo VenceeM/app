@@ -1,0 +1,1 @@
+select * from dbo.employees where date_hired > '2017'

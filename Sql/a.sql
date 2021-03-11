@@ -1,0 +1,1 @@
+select * from dbo.employees as e1, dbo.salary as e2, dbo.departments as e3 where e1.salary_id = e2.id and e1.department_id = e3.id and e2.salary = (select max(salary) from dbo.salary)

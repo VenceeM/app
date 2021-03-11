@@ -1,0 +1,1 @@
+select * from dbo.employees as e1, dbo.departments as e2 where e1.department_id = e2.id and e2.departments = 'IT' and e1.date_hired > '2018'
